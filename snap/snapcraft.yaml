@@ -8,7 +8,7 @@ grade: stable
 base: core18
 
 apps:
- gradle-hello:
+ newjfx:
    command: bin/java -jar $SNAP/jar/snapcraft-gradle-demo-with-outputdir-1.0.0.jar
 
 parts:

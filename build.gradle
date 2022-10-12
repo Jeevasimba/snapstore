@@ -10,6 +10,9 @@ repositories {
     mavenCentral()
 }
 
+javafx {
+    modules = ['javafx.controls', 'javafx.fxml']
+}
 
 // tag::jar[]
 jar {
@@ -22,7 +25,3 @@ jar {
     }
 }
 // end::jar[]
-
-javafx {
-    modules = ['javafx.controls', 'javafx.fxml']
-}

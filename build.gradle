@@ -26,8 +26,3 @@ jar {
 javafx {
     modules = ['javafx.controls', 'javafx.fxml']
 }
-
-application {
-    mainClass = "org.example.hellofx.Launcher"
-    applicationName = 'hellofx'
-}

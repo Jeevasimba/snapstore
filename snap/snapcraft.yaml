@@ -17,4 +17,4 @@ parts:
         source: .
         gradle-options: [--debug]
         gradle-output-dir: 'SNAPCRAFT_GRADLE_OUTPUT_DIR/libs'
-        gradle-openjdk-version: "8"
+        gradle-openjdk-version: "14"
